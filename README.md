@@ -1,6 +1,6 @@
-# Seedance 2.0 — Ultra-Realistic Fight Scene Skill for Claude Code
+# Seedance 2.0 — Ultra-Realistic Fight Scene Skill for Claude
 
-A Claude Code skill that generates ultra-realistic fight scene video prompts optimized for Seedance 2.0 on Higgsfield. Battle-tested through extensive prompt iteration.
+A Claude skill that generates ultra-realistic fight scene video prompts optimized for Seedance 2.0 on Higgsfield. Battle-tested through extensive prompt iteration.
 
 ## What It Does
 
@@ -8,7 +8,16 @@ Generates tight, character-limited fight prompts that produce grounded, cinemati
 
 ## Installation
 
-### Option 1: Global Skill (Available in All Projects)
+### Option 1: Claude.ai (Easiest)
+
+1. Go to [claude.ai/customize/skills](https://claude.ai/customize/skills)
+2. Click **Add Skill**
+3. Copy and paste the contents of `Skill.md`
+4. Save
+
+The skill is now active across all your Claude conversations.
+
+### Option 2: Claude Code — Global Skill
 
 Copy `Skill.md` to your Claude Code skills directory:
 
@@ -16,7 +25,7 @@ Copy `Skill.md` to your Claude Code skills directory:
 ~/.claude/skills/Skill.md
 ```
 
-### Option 2: Project-Level Skill
+### Option 3: Claude Code — Project-Level Skill
 
 Drop `Skill.md` into your project's `.claude/skills/` folder:
 
@@ -24,7 +33,7 @@ Drop `Skill.md` into your project's `.claude/skills/` folder:
 your-project/.claude/skills/Skill.md
 ```
 
-### Option 3: Custom Commands Directory
+### Option 4: Claude Code — Custom Command
 
 Place it in your Claude Code custom commands folder:
 
@@ -36,14 +45,14 @@ Then invoke it with `/seedance-fights` in Claude Code.
 
 ## Usage
 
-Once installed, Claude Code automatically triggers this skill when you mention:
+Once installed, Claude automatically triggers this skill when you mention:
 
 - "fight scene", "brawl", "beatdown", "street fight"
 - "realistic combat", "keyboard fight", "weapon fight"
 - "one vs many", "mob fight"
 - Any request for grounded, brutal action prompts
 
-### Example Prompts to Claude Code
+### Example Prompts
 
 ```
 make me a parking garage fight scene with a keyboard weapon
@@ -83,5 +92,5 @@ rooftop fight at sunset, selfie stick as weapon, brutal and cinematic
 
 ## Requirements
 
-- [Claude Code](https://claude.ai/code) CLI or desktop app
+- [Claude](https://claude.ai) or [Claude Code](https://claude.ai/code)
 - A Higgsfield account with Seedance 2.0 access
